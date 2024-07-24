@@ -1,0 +1,170 @@
+{
+    "responseCode": 0,
+    "results": [
+        {
+            "category": "Basics",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "Wie programmiert man eine Variable in Xcode?",
+            "correctAnswer": "var x = y",
+            "incorrectAnswers": [
+                "let x = y",
+                "variable x = y"
+            ]
+        },
+        {
+            "category": "Basics",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "Wie programmiert man eine Konstante in Xcode?",
+            "correctAnswer": "let x = y",
+            "incorrectAnswers": [
+                "var x = y",
+                "constant x = y"
+            ]
+        },
+        {
+            "category": "Basics",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "Wie programmiert man mehrere Konstanten/Variablen gleichzeitig in Xcode?",
+            "correctAnswer": "var/ let x = 1, y = 2, z = 3",
+            "incorrectAnswers": [
+                "variable/ constant x = 1, y = 2, z = 3",
+                "var/ let x, y, z = 1, 2, 3"
+            ]
+        },
+        {
+            "category": "Basics",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "Wie wird der Typ einer Variable deklariert?",
+            "correctAnswer": "var x: Typ",
+            "incorrectAnswers": [
+                "var x = Typ",
+                "var Typ: x"
+            ]
+        },
+        {
+            "category": "Basics",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "Welche Werte kann eine Variable des Typs Int speichern?",
+            "correctAnswer": "Ganze Zahlen",
+            "incorrectAnswers": [
+                "Kommazahlen",
+                "Zeichenketten"
+            ]
+        },
+        {
+            "category": "Basics",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "Was passiert, wenn man versucht, den String \"Hallo\" in einer Variablen vom Typ Int zu speichern?",
+            "correctAnswer": "Das Programm meldet einen Error.",
+            "incorrectAnswers": [
+                "Das Programm stürzt ab.",
+                "Der String \"Hallo\" wird in der Variablen gespeichert."
+            ]
+        },
+        {
+            "category": "Basics",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "Wozu dient die print-Funktion?",
+            "correctAnswer": "Sie gibt in die Klammern eingefügte Werte in der Konsole aus.",
+            "incorrectAnswers": [
+                "Sie dient der Speicherung von Variablen.",
+                "Sie löscht in die Klammern eingegebene Werte."
+            ]
+        },
+        {
+            "category": "Basics",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "Wie funktioniert String Interpolation?",
+            "correctAnswer": "Man setzt Werte in \\\\() ein.",
+            "incorrectAnswers": [
+                "Man setzt Werte in /() ein.",
+                "Man setzt Werte in .() ein."
+            ]
+        },
+        {
+            "category": "Basics",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "Wie schreibt man einen Kommentar in Xcode?",
+            "correctAnswer": "//",
+            "incorrectAnswers": [
+                "\\",
+                "comment;"
+            ]
+        },
+        {
+            "category": "Basics",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "Wozu dient die Typinferenz?",
+            "correctAnswer": "Sie ermittelt den Typ einer Variable oder Konstanten.",
+            "incorrectAnswers": [
+                "Sie hilft den Typen eines Wertes umzuwandeln.",
+                "Sie ordnet einem Typen eine Zahl zu."
+            ]
+        },
+        {
+            "category": "Basics",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "Wie kann man mehrere Zahlen unterschiedlichen Typs zusammenaddieren?",
+            "correctAnswer": "Indem man die jeweiligen Typen gleichnamig macht.",
+            "incorrectAnswers": [
+                "Das geht bereits dank der Typinferenz.",
+                "Es ist leider unmöglich."
+            ]
+        },
+        {
+            "category": "Basics",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "Welche Aussage über Booleans stimmt?",
+            "correctAnswer": "Man benutzt Booleans um den Wahrheitswert einer Konstante oder Variable zu bestimmen.",
+            "incorrectAnswers": [
+                "Eine Variable vom Typ Boolean kann true, false oder neutral sein.",
+                "Der Name Boolean stammt vom Mathematiker Charles Boole."
+            ]
+        },
+        {
+            "category": "Basics",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "Welche der folgenden drei Auswahlmöglichkeiten ist kein Tupel?",
+            "correctAnswer": "let x = [0.2, \"Bananen\"]",
+            "incorrectAnswers": [
+                "let x = (3, \"Tage\")",
+                "let x = (2, 4, true)"
+            ]
+        },
+        {
+            "category": "Basics",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "Welche der folgenden drei Aussagen ist falsch?",
+            "correctAnswer": "Auf den ersten Wert eines Tupels mit: tupelName.1, zugegriffen werden.",
+            "incorrectAnswers": [
+                "Man kann die Werte eines Tupels durch mehrere Var./ Konst. zersetzen.",
+                "Auf Werte eines Tupels kann mit: tupelName.wertName, zugegrfiffen werden."
+            ]
+        },
+        {
+            "category": "Basics",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "Wie printet man nun einen bestimmten Wert aus dem Tupel?",
+            "correctAnswer": "print(tupelName.Index)",
+            "incorrectAnswers": [
+                "print(tupelName,Index)",
+                "print(tupelName_Index)"
+            ]
+        }
+    ]
+}
